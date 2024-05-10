@@ -1,0 +1,478 @@
+* {
+    padding : 0px;
+    margin : 0px;
+    box-sizing: border-box;
+}
+nav {
+    height : 60px;
+    width : 100%;
+    display : flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FEFAF6;
+    position : fixed;
+    z-index : +1;
+}
+.menu a {
+    font-size: 20px;
+    padding : 10px;
+    margin : 12px;
+    color: #153448;
+}
+.logo {
+    font-size: 25px;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.menu a:hover {
+    border : 2px solid rgb(199, 70, 10);
+}
+.container {
+    height : 100vh;
+    width : 100%;
+    background-color: rgba(247, 243, 243, 0.733);
+}
+.left {
+    position: absolute;
+    left : 150px;
+    top : 200px;
+    font-family: Cambria, Cochin, Georgia, Times;
+    letter-spacing: 2px;
+}
+.left p {
+    font-size: 20px;
+}
+.img {
+    height : 350px;
+    width : 350px;
+    position: absolute; 
+    right : 200px;
+    top : 200px;
+    border-radius: 50%;
+    border : 0.5px solid rgba(58, 54, 54, 0.589); 
+}
+.btn {
+    padding : 10px 15px;
+    position : absolute;
+    top : 400px;
+    left : 200px;
+    border-radius: 20px;
+    border : none;
+    background-color: blue;
+    color : white;
+    font-size: 15px;   
+}
+.arrow {
+    color : black;
+    font-size : 8px;
+    padding : 5px;
+    background-color: white;
+    border-radius: 50%;
+    font-weight: bold;
+}
+.icons {
+    display : flex;
+    position : absolute;
+    bottom : 100px;
+    left : 150px;
+}
+.icons i {
+    padding : 10px;
+    margin : 10px;
+    font-size: 30px;
+    color : white;
+    background-color: black;
+    border-radius: 50%;
+
+}
+section {
+    height : 100vh;
+    width : 100%;
+    background-color: #FFEAE3;
+}
+ .personal-info h1 {
+    position: absolute;
+    left : 50%; 
+    margin-top : 50px;
+    font-family:Cambria, Cochin, Georgia; 
+    letter-spacing: 2px;
+    font-size: 30px;
+} 
+.bio {
+    display : flex;
+    justify-content: center;
+}
+.info {
+    flex-basis : 50%; 
+    margin : 200px 20px 0 100px; 
+}  
+.info h3 {
+    font-family:serif;
+    letter-spacing: 1px;
+}
+.info button {
+    padding : 10px;
+    background-color: blue;
+    color : white;
+    border : none;
+    border-radius: 5px;
+} 
+.info p {
+    font-size: 20px;
+    /* margin: 20px , 0; */
+}
+.my-img img {
+    flex-basis : 100%;
+    height : 400px;
+    margin : 150px 50px ;  
+    border-radius: 10px;
+} 
+.skill-sec {
+    height : 100vh;
+    width : 100%;
+    background-color: #57059E;
+    color : white;
+     /* display : flex;
+    align-items: center;
+    justify-content: center;   */
+}
+.skills {
+    text-align: center;
+    margin-bottom : 10px;
+    font-size: 35px;
+    padding : 20px;
+}
+.cards {
+    background-color: red;
+    width : 80%;
+    height :80%;
+    position: absolute;
+    left : 150px;background-color: rgba(0,0,22,0.4);
+    }
+.skills-img {
+    display : flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: center;  
+
+}
+.box {
+    height : 150px;
+    width : 150px;
+    border-radius: 15px;
+    background-color: rgba(0,0,22,0.9);
+    margin : 50px;
+}
+
+.box1 {
+    background-image: url("https://i.pinimg.com/736x/44/59/32/4459321c4e61adc58c584aa00788d148--html-text-web-development.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.box2 {
+    background-image: url("css.png");
+    background-size: cover;
+    background-position: center; 
+}
+
+.box3 {
+    background-image: url("https://w7.pngwing.com/pngs/725/775/png-transparent-javascript-html-logo-blog-css3-javanese-miscellaneous-angle-text.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.box4 {
+    background-image: url("https://th.bing.com/th/id/OIP.2lPcNBjKmc6P7DhGJ02cuAHaHa?pid=ImgDet&w=474&h=474&rs=1");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.box5 {
+    background-image: url("https://i.pinimg.com/originals/27/45/30/2745305c9702bceee2525cc24e1d00c2.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.box6 {
+    background-image: url("https://logospng.org/wp-content/uploads/java.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.box7 {
+    background-image: url("https://th.bing.com/th/id/R.b712106b65680e0420b13af97bff8bda?rik=eMzo4yyY0txExw&riu=http%3a%2f%2fnimbletech.co.in%2ftech-admin%2fcms%2fuploads%2fcourse%2f20180920213917c.jpg&ehk=3rrcdxa2otrj2hHXmIgNLW6vXb5HOwhNoPr3f60DwKM%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.box8 {
+    background-image: url("https://th.bing.com/th/id/OIP.U05Bx7NwcAiT3gq7uHYKrAHaFj?w=750&h=562&rs=1&pid=ImgDetMain");
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* my-education */
+.my-education {
+    height : 100vh;
+    width : 100%;
+    background-color: #e5ecfb;
+
+    text-align :center;
+}
+.my-edu {
+    text-align: center;
+    letter-spacing: 2px;
+    padding : 10px;
+    font-family: 'Gill Sans', Calibri,sans-serif;
+    font-size: 40px;
+}
+
+.my-education-info {
+    display : flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+/* About UGC */
+.edu-info-UGC {
+    height : 200px;
+    width : 65%;
+    border-radius: 15px;
+    background-color: white;
+    margin : 30px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.education-UGC-img-left {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj9AiFOppEUB3HXEE7JG1VGnj1rQvQjx3JbyfaLZb9wQ&s");
+    width : 40%;
+    height : 200px;
+    background-size: cover;
+    background-position: center;
+}
+#UGC-stream{
+    margin-left: 20px;
+    padding : 15px; 
+    font-size: 25px; 
+}
+#UGC-clg-name{ 
+    margin-left: 20px; 
+    padding : 15px; 
+    font-size : 20px;
+}
+
+/* about inter */
+.edu-info-intermediate {
+    height : 200px;
+    width : 65%;
+    border-radius: 15px;
+    background-color: white;
+    margin : 30px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.education-intermediate-img-left2 {
+    background-image: url("https://th.bing.com/th/id/OIP.4xs24y389zo8xrC8W6mi3gAAAA?rs=1&pid=ImgDetMain");
+    height : 100%;
+    width : 40%;
+    background-size: cover;
+    background-position: center;
+}
+
+#inter-stream{
+    margin-left: 20px;
+    padding : 15px; 
+    font-size: 25px; 
+    letter-spacing: 1px;
+}
+#inter-clg-name{ 
+    margin-left: 20px; 
+    padding : 15px; 
+    font-size : 20px;
+}
+
+/* project-section */
+.my-project {
+    height: 120vh;
+    width : 100%;
+    background-color: #00012b;
+}
+
+#project-heading {
+    text-align: center;
+    color: white;
+    padding : 10px;
+    font-size: 40px;
+}
+
+.project-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+}
+
+.project-box {
+    height : 250px;
+    width : 300px;
+    border-radius: 20px;
+    background-color: red;
+    margin : 20px;
+    border-top: 4px solid white;
+    border-right: 4px solid white;
+    }
+.project-img1 {
+    background-image: url("https://sq1754.me/project-Img/amazonCLone.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.project-img2 {
+    background-image: url("https://th.bing.com/th/id/OIP.aNp6811_xBIw2NQ3PQwmKwHaEM?rs=1&pid=ImgDetMain");
+    background-size: cover;
+    background-position: center;
+}
+
+.project-img3 {
+    background-image: url("https://prepinstaprime.com/admin/wp-content/uploads/2023/05/projects1.webp");
+    background-size: cover;
+    }
+
+.project-img4 {
+    background-image: url("https://cdn.dribbble.com/users/457961/screenshots/2439889/media/efbf0315679346c26a015c2a9404ad1e.png?compress=1&resize=400x300");
+    background-size: cover;
+}
+
+.project-img5 {
+    background-image: url("https://code-projects.org/wp-content/uploads/2021/08/tc.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.project-img6 {
+    background-image: url("https://miro.medium.com/v2/resize:fit:1200/1*3Rv4KFuTU5IJxCvhY_-tsA.png");
+    background-size: cover;
+    background-position: center;
+}
+ 
+.view-all-btn {
+    padding : 10px 15px;
+    color : black;
+    background-color: white;
+    position: absolute;
+    right : 45%; 
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 30px;
+    text-align: center;
+    }
+
+    /* contact me */
+    .contact-info {
+        height : 80vh;
+        width : 100%;
+        background-color: #e5ecfb;
+    }
+
+    #contact-heading {
+        font-size : 40px;
+        text-align: center;
+        padding : 20px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+    .contact-page-section {
+        height : 400px;
+        width : 80%;
+    }
+    .contact-img {
+        background-image: url("https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?q=80&w=1430&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        height : 400px;
+        width : 80%;
+        background-size: cover;
+        border-radius: 20px;
+        position : absolute;
+        left : 150px;
+    }
+
+    .contact-form {
+        position: absolute;
+        right : 200px;
+        margin-top : 40px;
+    }
+
+    .contact-form input {
+        padding : 12px;
+        margin : 15px;
+        border : none;
+        font-size: 15px;
+    }
+
+    .contact-form i {
+        padding : 6px;
+        font-size: 20px;
+    } 
+
+  /* Footer-section */
+    .foot-msg {
+        height : 50px;
+        width : 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1B1A55;
+        color: white;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+ 
+
+    .foot-panel {
+        height : 60vh;
+        width : 100%;
+        background-color: #00012b;
+    }
+    .foot-panel-list {
+        color : white;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .foot-panel li {
+        padding : 5px 15px;
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.795);
+        list-style-type: none; 
+    }
+    .foot-panel h2 {
+        padding : 30px 5px;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .foot-heart {
+        display: flex;
+        justify-content: center;
+        margin-top : 30px;
+    }
+    .foot-heart p {
+        color : white;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    .foot-heart i {
+        color : red;
+        padding: 5px;
+        font-size: 15px;
+    }
